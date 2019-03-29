@@ -7,7 +7,6 @@ puts "Voici la pyramide :"
 
 n = 1
 while n <= stairs
-  puts ("#" * n).rjust(10)
+  puts ("#" * n).rjust(25)
   n += 1
 end
-
